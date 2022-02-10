@@ -4,7 +4,7 @@ const appRouter = require('./routes/appRouter');
 
 
 
-const port = process.env.port || 8080
+const port = process.env.PORT || 8080
 
 let app = express()
 const cors=require('cors')
